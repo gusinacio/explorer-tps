@@ -31,7 +31,7 @@ def add_csv(key, count):
     print(csv_data)
 
 def get_transactions(block: int, max_block: int):
-    url = f'https://explorer.roninchain.com/_next/data/agwuR1HgqJ1TmwK1-7hel/block/{block}.json'
+    url = f'https://explorer.roninchain.com/_next/data/dMk4oJpvivjBta0kxbExL/block/{block}.json'
     with s.get(url) as response:
         if response.status_code != 200:
             print("FAILURE::{0}".format(url))
@@ -53,7 +53,7 @@ for i in range(concurrent):
     t.start()
 
 def get_all_transactions():
-    response = requests.get('https://explorer.roninchain.com/_next/data/agwuR1HgqJ1TmwK1-7hel/index.json')
+    response = requests.get('https://explorer.roninchain.com/_next/data/dMk4oJpvivjBta0kxbExL/index.json')
     max_block = response.json()['pageProps']['latestBlocks']['total']
     try:
         for i in range(1, 10000):
