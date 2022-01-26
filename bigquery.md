@@ -21,6 +21,8 @@ GROUP BY day
 ORDER BY day
 ```
 
+Access this query [here](https://console.cloud.google.com/bigquery?sq=936315763356:a9fd05976b05452e9e2dc0d426f63741)
+
 ## GAS USED BY SIDECHAIN
 
 ```
@@ -42,6 +44,8 @@ GROUP BY day
 ORDER BY day
 ```
 
+Access this query [here](https://console.cloud.google.com/bigquery?sq=936315763356:8d2aa1c201494b8eacc36270a7c8f642)
+
 ## GAS USED BY SIDECHAIN WITHOUT DEPOSITS/WITHDRAWALS
 
 ```
@@ -62,6 +66,8 @@ GROUP BY day
 
 ORDER BY day
 ```
+
+Access this query [here](https://console.cloud.google.com/bigquery?sq=936315763356:d1e9d3f43ab2425ea1aeca9f8da4dad0)
 
 ## ETHEREUM USAGE PERCENTAGE
 
@@ -86,3 +92,6 @@ GROUP BY day
 
 ORDER BY day
 ```
+
+
+Access this query [here](https://console.cloud.google.com/bigquery?sq=936315763356:6a683e8e0809435fa3f7d0e975129a3c)
